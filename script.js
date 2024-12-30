@@ -4,7 +4,7 @@ const URL="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 btn=document.querySelector(".btn");
 SearchBox=document.querySelector(".search");
 image=document.querySelector(".image");
-getWeather("Delhi")
+getWeather("Delhi");
 btn.addEventListener("click",()=>{
     getWeather(SearchBox.value);
 });
