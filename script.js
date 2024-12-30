@@ -32,27 +32,27 @@ async function getWeather(city)
 
     if(data.weather[0].main=="Clouds")
     {
-        image.src="images/Cloud.png";
+        image.src="Images/Cloud.png";
     }
     else if(data.weather[0].main=="Clear")
     {
-        image.src="images/Clear.png";
+        image.src="Images/Clear.png";
     }
     else if(data.weather[0].main=="Mist")
     {
-        image.src="images/Mist.png";
+        image.src="Images/Mist.png";
     }
     else if(data.weather[0].main=="Drizzle")
     {
-        image.src="images/Drizzle.png";
+        image.src="Images/Drizzle.png";
     }
     else if(data.weather[0].main=="Rain")
     {
-            image.src="images/Rain.png";
+            image.src="Images/Rain.png";
     }   
     else if(data.weather[0].main=="Snow")
     {
-        image.src="images/Snow.png";
+        image.src="Images/Snow.png";
     } 
 
     SearchBox.value="";
