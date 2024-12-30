@@ -56,7 +56,7 @@ async function getWeather(city)
     }
     else if(data.weather[0].main=="Fog")
     {
-        image.src="images/Fog.png";
+        image.src="Images/Fog.png";
     } 
 
     SearchBox.value="";
