@@ -1,0 +1,119 @@
+*
+{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    background-color: #2bf7cc;
+}
+.head
+{
+    font-size: 2rem;
+    color: black;
+    justify-content: center;
+    line-height: 4rem;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    color: #4B0082;
+
+    border:1px solid #28687d;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width:50%;
+    margin:0 auto;
+    margin-top: 2rem;
+
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,178,233,1) 100%);
+}
+
+.search{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    max-width: 80%;
+    width:80%;
+    line-height:2rem;
+    border-radius: 1rem;
+    border:1px solid black;
+    padding-left:0.5rem;
+    margin-right: 0.2rem;
+    flex: 1; /* Makes the input take most of the space */
+    height: 2rem;
+}
+.btn img{
+    height:70%;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensures proper vertical alignment */
+}
+
+
+.btn {
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 50%;
+    margin-left: 0.5rem; /* Adds spacing between the input and button */
+}
+
+.temp{
+    justify-content: center;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.temp img{
+    height:20vh;
+    width:20vh;
+}
+
+.temperature{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.City{
+    font-size:small;
+    font-weight: lighter;
+}
+
+.details {
+    display: flex;
+    padding: 0 20px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.col {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.col img {
+    width: 4rem;
+    margin-left: 0.8rem; /* Left margin for spacing */
+    margin-right: 0.2rem; /* Right margin for spacing */
+}
+
+.Humidity, .Wind {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    margin-top: 0; /* Adjusted margin to align text properly */
+}
