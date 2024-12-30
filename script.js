@@ -1,10 +1,10 @@
 const apiKey="&appid=a5b7fedfd3aed7c44f5bc2ee93334d10";
 const URL="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
-
+city="delhi";
 btn=document.querySelector(".btn");
 SearchBox=document.querySelector(".search");
 image=document.querySelector(".image");
-getWeather("Delhi");
+getWeather(city);
 btn.addEventListener("click",()=>{
     getWeather(SearchBox.value);
 });
