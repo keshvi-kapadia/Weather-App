@@ -58,6 +58,10 @@ async function getWeather(city)
     {
         image.src="Images/Fog.png";
     } 
+    else if(data.weather[0].main=="Smoke")
+    {
+        image.src="Images/Smoke.png";
+    } 
 
     SearchBox.value="";
 }
