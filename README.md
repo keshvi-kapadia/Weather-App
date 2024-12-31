@@ -30,7 +30,7 @@ A simple web-based weather app that provides real-time weather information for a
 ## Demo 📸
 
 You can view the Weather App here:  
-[Weather App Screenshot](https://keshvi-kapadia.github.io/Weather-App/)
+[Weather App](https://keshvi-kapadia.github.io/Weather-App/)
 
 ## Acknowledgements 🙏
 
