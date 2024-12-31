@@ -9,5 +9,5 @@ A sleek and interactive Weather Application built using HTML, CSS, and JavaScrip
 - 🌟 Responsive and user-friendly design.
 
 ## Demo
-[(https://keshvi-kapadia.github.io/Weather-App/)]
+(https://keshvi-kapadia.github.io/Weather-App/)
 
