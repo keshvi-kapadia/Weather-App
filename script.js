@@ -64,6 +64,9 @@ async function getWeather(city)
     {
         image.src="Images/Smoke.png";
     } 
-
+    else
+    {
+        image.src="Images/Haze.png";
+    }
     SearchBox.value="";
 }
